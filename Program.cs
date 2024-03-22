@@ -6,7 +6,7 @@
 // Примеры:
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 
-Console.Clear();
+// Console.Clear();
 
 using System;
 

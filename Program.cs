@@ -31,3 +31,13 @@ namespace StringArrayProgram
                 Console.WriteLine(str.Trim()); // Убираем лишние пробелы
             }
         }
+        static string[] FilterArray(string[] input)
+        {
+            int count = 0;
+            foreach (string str in input)
+            {
+                if (str.Length <= 3)
+                {
+                    count++;
+                }
+            }
